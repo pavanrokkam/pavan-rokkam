@@ -1,2 +1,16 @@
 this is pavan added lines after commit send to local repo
 git stauts
+
+
+
+git push origin branch-name
+or
+git push path/of/c-repo branch-name
+git branch -d branch-name  (local)
+git push origin -d branch-name  (central)
+
+git branch
+git branch -r
+git checkout -b origin/branch
+git checkout -b origin/branch
+git branch
