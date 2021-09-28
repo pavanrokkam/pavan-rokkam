@@ -165,7 +165,6 @@ git config --global alias.s "status"
 git s
 
 
-<<<<<<< HEAD
 
 If you meant to add a submodule, use:
 hint:
@@ -179,63 +178,3 @@ hint:   git rm --cached gitrebase
 
 git rm dir/file (delete the files completely from git) 
 rm -r fil/dir
-=======
-git config --list
-git config --global alias.cl "config --list"
-git cl
-
-git log --oneline
-git config --global alias.l1 "log --oneline"
-git l1
-
-git config --list
-
-To remove Alias and user-email
--------------------------------------------
-git config --global --unset alias.l1
-git config --global --unset user.name
-git config --global --unset user.email
-OB
-
-git checkout -b branch  (creating branch & checkout to branch)
-
-CONFLICTS:
-==========
-1)Abort
-2)Manual
-3) Auto merging
-
-git merge --abort
-
-
-
-TAG
-------
-git tag
-git tag tag-name
-git show tag-name
-or
-git log
-git tag tag-name cid
-
-git push origin tag-name
-or
-git push --tags
-Delete
--------
-git tag -d tag-name  (local)
-git push origin -d tag-name  (central)
-
-amend
----------
-git commit --amend -m "label" 
-
-ignorfiles
--------------
-
-vi .gitignore
------------------
-file1
-file2
-file3
->>>>>>> 6327c19 (git commits updated from git-bash)
