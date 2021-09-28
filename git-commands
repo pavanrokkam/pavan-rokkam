@@ -164,3 +164,17 @@ git status
 git config --global alias.s "status"
 git s
 
+
+
+If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> gitrebase
+
+
+ If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached gitrebase
+
+git rm dir/file (delete the files completely from git) 
+rm -r fil/dir
